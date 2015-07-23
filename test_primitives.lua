@@ -30,6 +30,6 @@ scene:add_child(b2)
 l1 = gr.light({0, 3, 10}, {0.5, 0.5, 0.5}, {1, 0, 0})
 l2 = gr.light({0, 3, -20}, {0.5, 0.5, 0.5}, {1, 0, 0})
 
-gr.render(scene, 'test_primitive.png', 300, 300,
+gr.render(scene, 'test_primitive.png', 512, 512,
 	  {0, 0, 0}, {0, 0, -1}, {0, 1, 0}, 50,
 	  {0.3, 0.3, 0.3}, {l1, l2})

@@ -35,6 +35,6 @@ b1:set_material(stone)
 l1 = gr.light({0, 0, 10}, {0.3, 0.3, 0.3}, {1, 0, 0})
 l2 = gr.light({0, 5, -20}, {1.0, 1.0, 1.0}, {1, 0, 0})
 
-gr.render(scene, 'test_refract.png', 300, 300,
+gr.render(scene, 'test_refract.png', 512, 512,
 	  {0, 0, 0}, {0, 0, -1}, {0, 1, 0}, 50,
 	  {0.3, 0.3, 0.3}, {l1, l2})
